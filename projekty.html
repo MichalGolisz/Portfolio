@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Projekty</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #121212;
+            color: white;
+        }
+
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+
+        main {
+            flex: 1;
+        }
+
+        nav {
+            background: #1e1e1e;
+            padding: 15px 20px;
+        }
+
+        nav a {
+            color: #4CAF50;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        section {
+            max-width: 900px;
+            margin: 80px auto;
+            padding: 20px;
+        }
+
+        h1 {
+            margin-bottom: 25px;
+            font-size: 32px;
+            text-align: center;
+        }
+
+        .project-card {
+            display: block;
+            background: #1e1e1e;
+            padding: 35px;
+            border-radius: 12px;
+            border: 1px solid #2c2c2c;
+            margin-bottom: 25px;
+            transition: 0.3s;
+            text-decoration: none;
+            color: white;
+        }
+
+        .project-card:hover {
+            border-color: #4CAF50;
+            transform: translateY(-3px);
+        }
+
+        .project-card a {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+        }
+
+        footer {
+            padding: 20px;
+            background: #1e1e1e;
+            color: #888;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="index.html">← Powrót do strony głównej</a>
+    </nav>
+
+    <main>
+
+        <section>
+
+            <h1>Projekty</h1>
+
+            <a href="kn-pmg-projekt-25-26.html" class="project-card">
+                <h3>KN PMG Projekt wdrożeniowy 2025/2026</h3>
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        © 2026 Michał Golisz Portfolio
+    </footer>
+
+</body>
+
+</html>
